@@ -9,7 +9,7 @@ function Header() {
                 <h1 className="logo-text">Loan Calculator</h1>
             </div>
             <h3 className="pageTitle">
-                Loan Amortization Scheduler
+                EMI Calculator
             </h3>
         </header>
     )
