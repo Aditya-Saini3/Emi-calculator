@@ -239,12 +239,14 @@ body {
 
 @media screen and (max-width: 400px) {
     :root {
-        --fs-pageTitle: 1rem;
+        --fs-pageTitle: 1.2rem;
         --fs-logoText: 2rem;
-        --fs-loanHeaderText: 1rem;
-        --fs-btn: 1.2rem;
-        --fs-emiValue: 1.6rem;
-        --fs-currency-dropdown: .8rem;
+        --fs-loanHeaderText: 1.2rem;
+        --fs-btn: 1.6rem;
+        --fs-emiValue: 2rem;
+        --fs-currency-dropdown: 1rem;
+    
+        --ls-pageTitle: 0.1rem;
     }
 
     .main-section {
@@ -253,6 +255,16 @@ body {
 
     .header-section {
         padding: 0 30px;
+    }
+
+    .loan {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .loan-results {
+        padding: 20px;
+        width: 90%;
     }
 }
 
